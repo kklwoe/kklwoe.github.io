@@ -1,6 +1,5 @@
-/**
- * Created by Administrator on 2017/1/5 0005.
- */
+
+// 底部版权区
 ReactDOM.render(
     <footer className="bs-docs-footer">
         <div className="container">
