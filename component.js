@@ -18,3 +18,4 @@ ReactDOM.render(
     </footer>,
     document.getElementById('component_footer')
 );
+
