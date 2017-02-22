@@ -19,3 +19,25 @@ ReactDOM.render(
     document.getElementById('component_footer')
 );
 
+//返回顶部
+ReactDOM.render(
+    <div className="elevator_item">
+        <a className="elevator" title="回到顶部"></a>
+    </div>,
+    document.getElementById('component_elevator')
+);
+$(function() {
+    $(window).scroll(function(){
+        var scrolltop=$(this).scrollTop();
+        if(scrolltop>=200){
+            $(".elevator_item").show();
+        }else{
+            $(".elevator_item").hide();
+        }
+    });
+    $(".elevator").click(function(){
+        $("html,body").animate({scrollTop: 0}, 300);
+    });
+});
+
+

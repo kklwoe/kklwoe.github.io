@@ -14,3 +14,23 @@ body {
 	margin-bottom: 0;
 }
 
+/*组件elevator样式*/
+.elevator_item {
+	width: 60px;
+	height: 60px;
+	position: fixed;
+	right: 100px;
+	bottom: 200px;
+	display: none;
+}
+.elevator {
+	display: block;
+	width: 60px;
+	height: 60px;
+	background: #444 url(../imgs/icon_top.png) center no-repeat;
+	border-radius: 3px;
+}
+.elevator:hover {
+	background-color: rgba(0, 0, 0, .7);
+	cursor: pointer;
+}
